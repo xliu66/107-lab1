@@ -68,7 +68,7 @@ function homeWork(){
 
     // 5 print non positive (lower than 0)
     for (var i=0;i<numbers.length; i++){
-        if (numbers[i]>0){
+        if (numbers[i]<0){
             console.log(numbers[i]);
         }
         
